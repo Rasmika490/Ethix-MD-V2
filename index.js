@@ -49,7 +49,7 @@ if (!fs.existsSync(sessionDir)) {
 
 async function downloadSessionData() {
     if (!config.SESSION_ID) {
-        console.error('Please add your session to SESSION_ID env !!');
+        console.error('Please add your session to SESSION_ID env Ethix-MD&YNUKxM9x!!');
         return false;
     }
     const sessdata = config.SESSION_ID.split("Ethix-MD&")[1];
